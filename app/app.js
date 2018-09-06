@@ -6,19 +6,19 @@ productReview.controller("productReviewController",function($scope) {
     $scope.products = [
       {
         "name": 'Product 1',
-        "description": 'First product to be shown.'
+        "description": 'Description for Product 1.'
       }, 
       {
         "name": 'Product 2',
-        "description": 'Second product to be shown.'
+        "description": 'Description for Product 2.'
       },
       {
         "name": 'Product 3',
-        "description": 'Third product to be shown.'
+        "description": 'Description for Product 3.'
       },
       {
         name: 'Product 4',
-        description: 'Fourth product to be shown.'
+        description: 'Description for Product 4.'
       }
     ];
     $scope.name = 'productList';
