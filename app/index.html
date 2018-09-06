@@ -2,18 +2,18 @@
 <html ng-app="productReview">
 <head>
   <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="styles.css">
   <script src="//code.angularjs.org/1.7.3/angular.js"></script>
   <script src="./app.js"></script>
   <script src="./star-review.component.js"></script>
 </head>
 <body ng-controller="productReviewController">
   <h1>Product Review</h1>
-  <ul>
-    <li ng-repeat="product in products">
-      <span>{{product.name}}</span>
-      <p>{{product.description}}</p>
-      <star-review></star-review>
-    </li>
+  <ul ng-repeat="product in products">
+    <h2>{{product.name}}</h2>
+    <div>{{product.description}}</div>
+    <p>Click to Rate: </p>
+    <star-review></star-review>
   </ul>
 </body>
 </html>
