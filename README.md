@@ -22,3 +22,9 @@ In order to display the functioning page, please do the following:
 localhost:3000
 
 **If you changed the port number, please change "3000" to the number you changed to.
+
+![](star-rating-gif.gif)
+How to use:
+- Simply click the empty brackets to rate a product.
+- You can click a different bracket again to make an adjustment.
+- When you click the bracket, console log will be created to indicate how many stars have been created -- for future development purposes.
