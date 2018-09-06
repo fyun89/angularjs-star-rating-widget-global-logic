@@ -50,7 +50,7 @@ productReview.component("starReview", {
         $scope.star4 = '*';
         $scope.star5 = '*';
       };
-      console.log('You\'ve rated, ' + x)
-    }
+      console.log('You\'ve rated, ' + x);
+    };
   }
 });

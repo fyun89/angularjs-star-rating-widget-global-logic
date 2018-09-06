@@ -1,5 +1,3 @@
-//angular.module("App",['main']);
-
 var productReview = angular.module("productReview", []);
 
 productReview.controller("productReviewController",function($scope) {
